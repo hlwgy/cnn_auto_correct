@@ -1,7 +1,8 @@
-1. fonts文件夹里拷贝一些字体文件，从这里找C:\Windows\Fonts，几十个就行。
+
+1. 同级新建fonts文件夹里拷贝一些字体文件，从这里找C:\Windows\Fonts，几十个就行。
 2. get_character_pic.py 生成字体
 3. cnn.py 训练数据
-4. main.py 裁剪指定图片并识别，素材图片在imgs/question.png下，结果文件保存在imgs/result.png。
+4. main.py 裁剪指定图片并识别，素材图片新建imgs文件夹,在imgs/question.png下，结果文件保存在imgs/result.png。
 5. 注意如果识别不成功，很可能是question.png的字体你没有训练（这幅图的字体是方正书宋简体，但是你只训练了楷体），这时候可以使用楷体自己编一个算式图。
 
 # 一、亮出效果
